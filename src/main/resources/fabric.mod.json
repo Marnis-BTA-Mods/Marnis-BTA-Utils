@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "marnisutils",
+  "version": "${version}",
+
+  "name": "Marnis Utils",
+  "description": "Bunch of shit combined in a package",
+  "authors": [
+    "ItzMarni"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"me.marni.marnisutils.main"
+    ],
+		"beforeClientStart": [
+			"me.marni.marnisutils.main"
+		],
+		"afterClientStart": [
+			"me.marni.marnisutils.main"
+		]
+	},
+  "mixins": [
+		"marnisutils.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "*",
+		"fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}

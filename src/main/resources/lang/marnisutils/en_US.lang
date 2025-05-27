@@ -1,0 +1,16 @@
+marnisutils.title=Marni's Utils
+
+# Categories
+marnisutils.category.tweaks=Tweaks
+marnisutils.category.utility=Utility
+
+# Tweaks category options
+options.marnisutils.tweaks.disableBlockBreakCooldown = Disable Block Break Cooldown
+options.marnisutils.tweaks.autoClimbLadders = Auto Climb Ladders
+options.marnisutils.tweaks.ladderSpeed = Ladder Speed
+options.marnisutils.tweaks.mojankLoadingIcon = Mojank Loading Icon
+options.marnisutils.tweaks.disableSeasonalGrowth = Disable Seasonal Growth
+
+# Utils category options
+options.marnisutils.utility.autoTool = Auto Tool
+options.marnisutils.utility.restockHand = Hand Restock
